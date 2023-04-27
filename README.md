@@ -1,2 +1,24 @@
-# dgt-directives
-指令库，封装的常见的指令，方便工作和学习，以及企业工程化建设。
+# directives
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

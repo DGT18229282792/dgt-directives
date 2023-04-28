@@ -1,6 +1,6 @@
 {
   "name": "dgt-directives",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": false,
   "license": "MIT",
   "main": "lib/dgt-directives.umd.min.js",

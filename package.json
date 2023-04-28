@@ -1,10 +1,10 @@
 {
   "name": "dgt-directives",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "private": false,
   "license": "MIT",
   "main": "lib/dgt-directives.umd.min.js",
-  "description": "修改注册指令的bug",
+  "description": "readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -1,10 +1,10 @@
 {
   "name": "dgt-directives",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "license": "MIT",
   "main": "lib/dgt-directives.umd.min.js",
-  "description": "丰富指令库，新增了10个新的指令",
+  "description": "修改注册指令的bug",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

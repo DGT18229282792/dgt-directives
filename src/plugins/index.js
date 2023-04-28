@@ -1,5 +1,5 @@
 
-const requireDirective = require.context('./', true, /.js$/);
+const requireDirective = require.context('./directives', true, /.js$/);
 const directives = {}
 
 requireDirective.keys().forEach(fileName => {
@@ -7,6 +7,7 @@ requireDirective.keys().forEach(fileName => {
   directives[directiveName] = requireDirective(fileName).default
 })
 const install = (Vue) => {
+  
 for(let i in directives){
     Vue.directive(i, directives[i]);
 }

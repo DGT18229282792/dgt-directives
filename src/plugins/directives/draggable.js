@@ -1,8 +1,9 @@
 // 实现元素拖拽
 export default {
     bind: function (el) {
-      el.style.position = 'absolute'
+      el.style.position = 'absolute';
       el.addEventListener('mousedown', function (event) {
+        el.style.cursor = 'pointer';
         const startX = event.clientX
         const startY = event.clientY
         const left = el.offsetLeft
@@ -16,6 +17,7 @@ export default {
         function stop() {
           document.removeEventListener('mousemove', move)
           document.removeEventListener('mouseup', stop)
+          el.style.cursor = 'default';
         }
       })
     }

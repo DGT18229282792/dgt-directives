@@ -1,10 +1,10 @@
 {
   "name": "dgt-directives",
-  "version": "0.2.4",
+  "version": "0.2.6",
   "private": false,
   "license": "MIT",
   "main": "lib/dgt-directives.umd.min.js",
-  "description": "readme",
+  "description": "修改文本溢出指令",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h1 v-draggable>{{ msg }}</h1>
+    <h1 v-draggable>测试拖拽</h1>
+    <div class="testEllipsis" v-ellipsis >测试文本溢出测试文本溢出测试文本溢出测试文本溢出测试文本溢出</div>
   </div>
 </template>
 
@@ -28,5 +29,12 @@ li {
 }
 a {
   color: #42b983;
+}
+.testEllipsis{
+  width: 150px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #666;
+  text-align: left;
 }
 </style>
